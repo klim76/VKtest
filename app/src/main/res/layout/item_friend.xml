@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/friend_picture"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:src="@android:drawable/sym_def_app_icon"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/friend_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вася пупкин"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/friend_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="май лайф май руллс"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Всего фото"/>
+        <TextView
+            android:id="@+id/friend_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100500"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>

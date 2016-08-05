@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestVK</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="client_id">5571497</string>
+    <string name="api_version">5.53</string>
+
+    <string name="pin_get_dlg">Для доступа к сохраненным учетным данным требуется ввод пин кода.</string>
+    <string name="pin_set_dlg">Пожалуйста установите пин-код для защиты доступа к вашим учетным данным</string>
+</resources>
