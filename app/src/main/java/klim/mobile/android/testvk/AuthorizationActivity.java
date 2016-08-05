@@ -242,7 +242,7 @@ public class AuthorizationActivity extends AppCompatActivity implements View.OnC
                 e.printStackTrace();
             }
 
-            Friend tmpFriend = new Friend(id,fname,lname,status,urlPhoto,null);
+            Friend tmpFriend = new Friend(id,fname,lname,status,urlPhoto,new ArrayList<Foto>());
             vkUser.getFriends().add(tmpFriend);
         }
 
